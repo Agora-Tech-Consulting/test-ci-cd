@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Ejecuta el comando cuando se inicia el contenedor
-CMD ["python", "main.py"]
+CMD ["python", "./src/main.py"]
